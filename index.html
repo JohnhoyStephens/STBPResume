@@ -1,23 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-US">
+<meta >
+
   <header>
-    <title>JS Home page</title>
-    <link href="Resources\CSS\Index.css" rel="stylesheet"
-    <nav>
-      <div>
-        <ul>
-          <li><a href="finances.html">Finances</a></li>
-          <li><a href="hobbies.html">Hobbies</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li>
-            <a href="https://github.com/JohnhoyStephens" target="_blank"
-              >Github</a
-            >
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <div>
+    <div id="login">
       <!-- log in -->
         <legend>
           Login Information
@@ -34,12 +20,38 @@
         <br/>
         <input type="submit" value="Submit"/>
     </div>
-    <hr />
+    <title>Home Page</title>
+    <link href="Resources\CSS\PageLayout.CSS" rel="stylesheet">
+    <link href="Resources\CSS\Index.css" rel="stylesheet">
+    <nav>
+      <div id="header-nav-bar">
+        <ul id="header-nav-bar-items">
+          <li><a href="finances.html">Finances</a></li>
+          <li><a href="hobbies.html">Hobbies</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li>
+            <a href="https://github.com/JohnhoyStephens" target="_blank"
+              >Github</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </header>
+
+
   <body>
     <main>
       <div><p>
-        about me section
+        I am a Full Stack Engineer who utilizes:
+        <ul id="primary-skills">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Redux</li>
+          <li>NodeJS</li>
+          <li>Python</li>
+      </ul>
       </p></div>
 
       <div><p>
@@ -49,8 +61,6 @@
       <div><p>
         Future goal/working on
       </p></div>
-
-
       <div>
         <img> 
       img/gif linking to hobbies page
@@ -70,8 +80,8 @@
   <footer>
     <hr />
     <nav>
-      <div>
-        <ul>
+      <div id="footer-nav-bar">
+        <ul id="footer-nav-bar-items">
           <li><a href="finances.html">Finances</a></li>
           <li><a href="hobbies.html">Hobbies</a></li>
           <li><a href="projects.html">Projects</a></li>
@@ -84,7 +94,7 @@
       </div>
     </nav>
     <address>
-      <p>
+      <p id="footer-address">
         <a href="mailto:stbpjs9110@gmail.com">Email</a>
         <br />
         Johnhoy Stephens

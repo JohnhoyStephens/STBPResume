@@ -2,12 +2,37 @@
   font-family: "Times New Roman", Times, serif;
 }
 header {
+  /* background-image: url(../images/backgorund.webp);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover; */
 }
-title {
+#login {
+  color: white;
 }
 nav {
 }
-nav a {
+header li a {
+  background-color: black;
+}
+
+header li a:hover {
+  background-color: red;
+}
+header li a:visited {
+  background-color: blue;
+}
+
+footer li a {
+  background-color: aqua;
+}
+
+footer li a:hover {
+  background-color: purple;
+}
+
+footer li a:visted {
+  background-color: green;
 }
 
 nav div {
